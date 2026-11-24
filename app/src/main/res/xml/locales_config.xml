@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Android 13+ 系统「逐应用语言设置（Per-App Language Preferences）」声明清单。
+  与 :core:model 中的 AppLanguage 枚举保持一致；新增语言时请同步补充此文件及对应 values-xx 资源目录。
+-->
+<locale-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <locale android:name="en" />
+    <locale android:name="zh-CN" />
+</locale-config>

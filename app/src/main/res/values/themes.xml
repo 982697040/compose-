@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 应用主界面主题（继承 AppCompat.DayNight 以完整支持 Per-App Language 与深浅色切换） -->
+    <style name="Theme.StandardDemo" parent="Theme.AppCompat.DayNight.NoActionBar" />
+
+    <!-- Android 12+ 兼容启动页 SplashScreen 主题 -->
+    <style name="Theme.StandardDemo.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@android:color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_round</item>
+        <item name="postSplashScreenTheme">@style/Theme.StandardDemo</item>
+    </style>
+
+</resources>

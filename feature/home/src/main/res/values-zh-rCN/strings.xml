@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 首页标题与卡片标题（简体中文） -->
+    <string name="home_top_bar_title">企业级 Android 架构基座</string>
+    <string name="home_env_card_title">当前构建环境</string>
+    <string name="home_env_label">运行环境</string>
+    <string name="home_version_label">版本信息</string>
+    <string name="home_build_type_label">调试模式</string>
+    <string name="home_build_type_debug">Debug</string>
+    <string name="home_build_type_release">Release</string>
+    <string name="home_base_url_label">接口域名</string>
+
+    <!-- 外观与主题设置 -->
+    <string name="home_theme_card_title">主题与外观设置（DataStore 持久化演示）</string>
+    <string name="home_dynamic_color_title">动态取色（Android 12+）</string>
+    <string name="home_dynamic_color_subtitle">跟随系统壁纸生成 Material You 配色方案</string>
+
+    <!-- 多语言切换设置 -->
+    <string name="home_language_card_title">多语言设置（逐应用语言切换演示）</string>
+    <string name="home_language_subtitle">即时切换语言，并在 Android 13+ 自动联动系统应用语言设置</string>
+
+    <!-- 架构模块清单 -->
+    <string name="home_modules_card_title">已就绪的企业级模块清单</string>
+    <string name="home_module_build_logic_desc">Gradle 约定插件（统一管理构建规范与依赖）</string>
+    <string name="home_module_core_model_desc">纯 Kotlin 领域模型层（零 Android 强耦合）</string>
+    <string name="home_module_core_common_desc">AppResult、AppException、协程调度器、BaseViewModel 与多语言基座</string>
+    <string name="home_module_core_network_desc">Retrofit + OkHttp + Kotlinx Serialization + Accept-Language 拦截器</string>
+    <string name="home_module_core_database_desc">Room 离线缓存基座 + DataStore 偏好持久化</string>
+    <string name="home_module_core_data_desc">离线优先 Repository 仓库层与数据源协调</string>
+    <string name="home_module_core_ui_desc">Material 3 设计系统、通用组件与 Navigation 3 基座</string>
+    <string name="home_module_feature_home_desc">标准业务 Feature 模板（MVI + Nav3 自动注册 + 单测）</string>
+
+    <!-- 交互按钮与一次性提示消息 -->
+    <string name="home_action_run_check">运行框架就绪自检</string>
+    <string name="home_msg_theme_changed">主题已切换为：%1$s</string>
+    <string name="home_msg_dynamic_color_enabled">动态取色已开启</string>
+    <string name="home_msg_dynamic_color_disabled">动态取色已关闭</string>
+    <string name="home_msg_framework_ready">框架就绪：%1$s v%2$s</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 通用 UI 组件文案（简体中文） -->
+    <string name="cd_navigate_back">返回</string>
+    <string name="state_loading">加载中…</string>
+    <string name="state_empty_title">暂无数据</string>
+    <string name="state_retry">重新加载</string>
+    <string name="dialog_confirm">确定</string>
+    <string name="dialog_dismiss">取消</string>
+</resources>

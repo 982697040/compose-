@@ -1,0 +1,35 @@
+# ==============================================================================
+# 企业级 R8 代码优化与混淆保留规则（AGP 9 会自动合并 src/main/keepRules 下所有规则）
+# ==============================================================================
+
+# 1. 保留异常堆栈行号与源文件名，便于线上崩溃平台（Crashlytics / Bugly）还原符号表
+-keepattributes SourceFile, LineNumberTable
+-renamesourcefileattribute SourceFile
+
+# 2. Kotlinx Serialization 序列化模型保留规则
+-keepattributes *Annotation*, InnerClasses
+-dontnote kotlinx.serialization.AnnotationsKt
+-keepclassmembers class kotlinx.serialization.json.** {
+    *** Companion;
+}
+-keepclasseswithmembers class kotlinx.serialization.json.** {
+    kotlinx.serialization.KSerializer serializer(...);
+}
+-keep,includedescriptorclasses class com.bgd.standarddemo.**$$serializer { *; }
+-keepclassmembers class com.bgd.standarddemo.** {
+    *** Companion;
+}
+-keepclasseswithmembers class com.bgd.standarddemo.** {
+    kotlinx.serialization.KSerializer serializer(...);
+}
+
+# 3. 保留核心领域模型（:core:model）及网络响应壳，防止反射/序列化字段丢失
+-keep class com.bgd.standarddemo.core.model.** { *; }
+-keep class com.bgd.standarddemo.core.network.model.** { *; }
+
+# 4. 线上 Release 包自动移除普通调试日志调用（可选，与 Timber 配合）
+-assumenosideeffects class android.util.Log {
+    public static int v(...);
+    public static int d(...);
+    public static int i(...);
+}

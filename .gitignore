@@ -1,0 +1,32 @@
+# ==============================================================================
+# 企业级 Android 多模块项目 Git 忽略规则
+# ==============================================================================
+
+# IDE 与本地配置
+*.iml
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+local.properties
+.DS_Store
+Thumbs.db
+
+# Gradle 与 Kotlin 编译缓存（含多模块与 build-logic）
+.gradle/
+**/.gradle/
+.kotlin/
+**/.kotlin/
+build/
+**/build/
+/captures
+.externalNativeBuild
+.cxx
+
+# 安全红线：严禁将发布签名密钥与私密配置文件提交至代码仓库
+*.jks
+*.keystore
+keystore.properties
+google-services.json

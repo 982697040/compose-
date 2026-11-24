@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 统一异常提示文案（默认英文兜底） -->
+    <string name="error_network">Network connection error. Please check your network and try again.</string>
+    <string name="error_timeout">Network request timed out. Please try again later.</string>
+    <string name="error_unknown_host">Unable to connect to the server. Please check your network settings.</string>
+    <string name="error_http_status">Service temporarily unavailable (%1$d). Please try again later.</string>
+    <string name="error_unauthorized">Session expired. Please sign in again.</string>
+    <string name="error_storage">Failed to process local data. Please try again later.</string>
+    <string name="error_serialization">Failed to parse server response data.</string>
+    <string name="error_unknown">Something went wrong. Please try again later.</string>
+    <string name="error_empty_data">Server returned empty data.</string>
+    <string name="error_business_fallback">Request failed (error code: %1$d).</string>
+
+    <!-- 运行环境标签 -->
+    <string name="env_dev">Development</string>
+    <string name="env_staging">Staging</string>
+    <string name="env_prod">Production</string>
+
+    <!-- 深色模式标签 -->
+    <string name="theme_follow_system">Follow System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <!-- 应用语言标签（语言名称保持母语自指便于误切后快速辨认） -->
+    <string name="lang_follow_system">Follow System</string>
+    <string name="lang_zh_cn">简体中文</string>
+    <string name="lang_en">English</string>
+</resources>

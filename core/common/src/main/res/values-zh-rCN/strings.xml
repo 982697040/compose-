@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 统一异常提示文案（简体中文） -->
+    <string name="error_network">网络连接异常，请检查网络后重试</string>
+    <string name="error_timeout">网络请求超时，请稍后重试</string>
+    <string name="error_unknown_host">无法连接到服务器，请检查网络设置</string>
+    <string name="error_http_status">服务暂时不可用（%1$d），请稍后再试</string>
+    <string name="error_unauthorized">登录状态已失效，请重新登录</string>
+    <string name="error_storage">本地数据处理失败，请稍后重试</string>
+    <string name="error_serialization">服务端数据格式解析失败</string>
+    <string name="error_unknown">系统开小差了，请稍后重试</string>
+    <string name="error_empty_data">服务端返回数据为空</string>
+    <string name="error_business_fallback">业务请求失败（错误码：%1$d）</string>
+
+    <!-- 运行环境标签 -->
+    <string name="env_dev">开发环境</string>
+    <string name="env_staging">预发环境</string>
+    <string name="env_prod">生产环境</string>
+
+    <!-- 深色模式标签 -->
+    <string name="theme_follow_system">跟随系统</string>
+    <string name="theme_light">浅色模式</string>
+    <string name="theme_dark">深色模式</string>
+
+    <!-- 应用语言标签（语言名称保持母语自指便于误切后快速辨认） -->
+    <string name="lang_follow_system">跟随系统</string>
+    <string name="lang_zh_cn">简体中文</string>
+    <string name="lang_en">English</string>
+</resources>

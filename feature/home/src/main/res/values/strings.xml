@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 首页标题与卡片标题（默认英文兜底） -->
+    <string name="home_top_bar_title">Enterprise Android Template</string>
+    <string name="home_env_card_title">Current Build Environment</string>
+    <string name="home_env_label">Environment</string>
+    <string name="home_version_label">Version</string>
+    <string name="home_build_type_label">Build Type</string>
+    <string name="home_build_type_debug">Debug</string>
+    <string name="home_build_type_release">Release</string>
+    <string name="home_base_url_label">API Base URL</string>
+
+    <!-- 外观与主题设置 -->
+    <string name="home_theme_card_title">Theme &amp; Appearance (DataStore)</string>
+    <string name="home_dynamic_color_title">Dynamic Color (Android 12+)</string>
+    <string name="home_dynamic_color_subtitle">Generate Material You color schemes from wallpaper</string>
+
+    <!-- 多语言切换设置 -->
+    <string name="home_language_card_title">Language (Per-App Locale)</string>
+    <string name="home_language_subtitle">Applies immediately and syncs with Android 13+ system app language settings</string>
+
+    <!-- 架构模块清单 -->
+    <string name="home_modules_card_title">Ready Enterprise Modules</string>
+    <string name="home_module_build_logic_desc">Gradle Convention Plugins (unified build rules &amp; dependencies)</string>
+    <string name="home_module_core_model_desc">Pure Kotlin domain models (zero Android coupling)</string>
+    <string name="home_module_core_common_desc">AppResult, AppException, Dispatchers, BaseViewModel, UiText &amp; i18n</string>
+    <string name="home_module_core_network_desc">Retrofit + OkHttp + Kotlinx Serialization + Accept-Language header</string>
+    <string name="home_module_core_database_desc">Room offline cache foundation + DataStore preferences</string>
+    <string name="home_module_core_data_desc">Offline-first Repository layer &amp; data source orchestration</string>
+    <string name="home_module_core_ui_desc">Material 3 design system, common components &amp; Navigation 3 base</string>
+    <string name="home_module_feature_home_desc">Standard Feature template (MVI + Nav 3 auto-registration + unit tests)</string>
+
+    <!-- 交互按钮与一次性提示消息 -->
+    <string name="home_action_run_check">Run Framework Readiness Check</string>
+    <string name="home_msg_theme_changed">Theme switched to: %1$s</string>
+    <string name="home_msg_dynamic_color_enabled">Dynamic Color enabled</string>
+    <string name="home_msg_dynamic_color_disabled">Dynamic Color disabled</string>
+    <string name="home_msg_framework_ready">Framework ready: %1$s v%2$s</string>
+</resources>
